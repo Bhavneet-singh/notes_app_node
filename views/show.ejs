@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= filename %></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900 text-white min-h-screen p-8">
+    <div class="max-w-2xl mx-auto">
+        <h1 class="text-3xl font-bold mb-4"><%= filename %></h1>
+        <div class="bg-zinc-800 p-6 rounded-lg shadow-lg">
+            <pre class="whitespace-pre-wrap"><%= content %></pre>
+        </div>
+        <!-- <a href="/file" class="mt-6 inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition">Delete This Note </a> -->
+
+        <a href="/" class="mt-6 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Back to Home</a>
+    </div>
+</body>
+</html>
